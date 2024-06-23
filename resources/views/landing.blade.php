@@ -1,3 +1,3 @@
 <div>
-   @livewire('home')
+  <livewire:Home />
 </div>
