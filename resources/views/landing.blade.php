@@ -7,6 +7,6 @@
     <title>century 21 ollier</title>
 </head>
 <body>
-   qsdqsd
+   <x-navbar></x-navbar>
 </body>
 </html>
