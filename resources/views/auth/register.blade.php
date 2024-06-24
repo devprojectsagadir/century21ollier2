@@ -1,6 +1,6 @@
 <x-layout>
     <div>
-        <form action={{ route('register') }}>
+        <form action="{{ url('/register') }}">
             @csrf
             <input type="text" placeholder="username" />
             <input type="password" placeholder="passowrd" />
