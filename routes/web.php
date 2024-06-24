@@ -7,10 +7,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Register
-// Route::get("register", [AuthController::class, "register"])->name("register");
-// Route::post("register", [AuthController::class, "register"])->name("register");
-
 Route::group([
     "middleware" => ["guest"]
 ], function(){
