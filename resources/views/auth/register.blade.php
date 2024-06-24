@@ -5,6 +5,7 @@
             <input type="text" placeholder="username" name="name" />
             <input type="email" placeholder="email" name="email" />
             <input type="password" placeholder="passowrd" name="password" />
+            <input type="password" placeholder="passowrd" name="password_confirmation" />
             <button type="submit">submit</button>
              @error('name')
                  error
