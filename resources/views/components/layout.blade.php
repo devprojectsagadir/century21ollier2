@@ -1,10 +1,8 @@
 <html>
     <head>
-        <title>{{ $title ?? 'Todo Manager' }}</title>
+        <title>{{ $title ?? 'Century 21 ollier - Maroc' }}</title>
     </head>
     <body>
-        <h1>Todos</h1>
-        <hr/>
-        {{ $slot }}
+       {{ $slot }}
     </body>
 </html>

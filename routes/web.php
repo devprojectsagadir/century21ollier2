@@ -5,6 +5,6 @@ Route::get('/', function(){
     return view('landing');;
 });
 
-Route::get('/login', function () {
-    return view('auth/login');;
+Route::get('/home', function(){
+    dd(\Illuminate\Support\Facades\Auth::user());
 });
