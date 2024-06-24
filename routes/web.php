@@ -9,12 +9,12 @@ Route::group(['middleware' => config('fortify.middleware', ['web'])], function (
 
     // with fortify guest middleware
     Route::get('/login', function () {
-       return 'Foo';
+       return view('auth.login');
     })->middleware(['guest']);
 
     // with fortify auth middleware
-    Route::get('/regiser', function () {
-       return 'bar';
+    Route::get('/register', function () {
+       return view('auth.register');
     }) ->middleware(['guest']); // fortify auth middleware
 
 });
