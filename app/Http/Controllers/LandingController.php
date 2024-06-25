@@ -11,7 +11,7 @@ class LandingController extends Controller
     public function index()
     {
 
-        // Create a new Guzzle client instance
+        /*// Create a new Guzzle client instance
         $client = new Client();
         $apiUrl='https://www.century21ollier.com/api/articales';
 
@@ -27,7 +27,9 @@ class LandingController extends Controller
         } catch (\Exception $e) {
             // Handle any errors that occur during the API request
             return  $e->getMessage();
-        }
+        }*/
+
+        return view('landing');
 
     }
 }

@@ -21,6 +21,7 @@ class navbar extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.navbar');
+        $user = auth()->user();
+        return view('components.navbar',['user' => $user]);
     }
 }
